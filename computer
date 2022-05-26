@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+ public class Main {
+    public static void  main(String[] args) {
+        String[] computerLab = new String[2];
+        computerLab[0] = "IP ADDRESS";
+        computerLab[1] = "amount";
+        System.out.println(Arrays.toString(computerLab));
+
+        ArrayList<String> computerList = new ArrayList<>();
+        computerList.add("IP ADDRESS");
+        computerList.add("amount");
+        System.out.println(computerList);
+
+
+    }
